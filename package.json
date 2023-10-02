@@ -4,7 +4,8 @@
   "description": "Simple blog with Mongo DB",
   "main": "server.js",
   "scripts": {
-    "start:dev": "nodemon server.js"
+    "start:dev": "nodemon server.js",
+    "start:prod": "node server.js"
   },
   "author": "Pawel Kucia",
   "license": "ISC",
